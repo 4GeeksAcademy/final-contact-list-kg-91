@@ -1,0 +1,60 @@
+#Create {
+    background-color: rgba(204, 144, 231, 0.5); /* Fondo semitransparente */
+    width: 50%;
+    border-radius: 15px; /* Bordes redondeados */
+}
+
+.container h1 {
+    color: rgb(82, 13, 82);
+}
+
+.input{
+    border-radius: 10px;
+    width: 100%;
+    color: purple;
+}
+
+.btn {
+    background-color: rgb(143, 64, 143); 
+    color: black; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.to-contact{
+    display: flex;
+    color: blueviolet;
+}
+
+.contacto{
+    display: flex;
+    align-items: center;
+    background-color:rgb(230, 173, 227);
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: solid;
+}
+
+.boton{
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+    margin-right: 5px;
+}
+
+.foto{
+    border-radius: 50px;
+    width: 100px;
+    margin: 10px 10px 10px 10px;
+}
+
+.nombre{
+    font-size: medium;
+}
+
+.icons{
+    padding-right: 20px;
+}

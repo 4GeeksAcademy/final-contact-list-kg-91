@@ -1,3 +1,5 @@
+import ContactList from "./pages/ContactList";
+
 export const initialStore=()=>{
   return{
     message: null,
@@ -26,6 +28,13 @@ export default function storeReducer(store, action = {}) {
         ...store,
         todos: store.todos.map((todo) => (todo.id === id ? { ...todo, background: color } : todo))
       };
+      case 'save_contacts' :
+        const {contactos} = action.payload
+        return {
+          ...store,
+          listContact : contactos
+          
+        }
     default:
       throw Error('Unknown action.');
   }    
